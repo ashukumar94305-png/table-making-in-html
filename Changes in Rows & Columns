@@ -1,0 +1,26 @@
+<table border="7">
+        <thead >
+            <tr>
+                <td>name</td>
+                <td> subject</td>
+                <td> marks </td>
+            </tr>
+            
+            <tfoot>
+                <tr>
+                    <td rowspan="2" > ashu</td> <!-- rowspan is used to merge two or more rows -->
+                     <td>phy.</td>
+                    <td>50</td>
+
+                </tr>
+            
+                <tr>
+                    <td> che. </td>
+                    <td> 78.5 </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> total </td>
+                    <td> 128.5 </td>
+                </tr>
+                
+            </tfoot>
